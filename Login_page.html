@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scalae=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login_page.css">
+    <script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- header and navigation -->
+    <ul class="navBarList">
+        <li class="nav-link"><a href="home.html" class="logoLink"><i class='fas fa-seedling'></i>GrubToGo</a></li>
+
+        <li class="nav-link"><a href="P5.html" class="sub">Sign In</a></li>
+        <li class="nav-link"><a href="/SignUp/" class="sub"> Sign Up</a></li>
+        <li class="nav-link aisles-dropdown">
+            <a class="dropbtn">Aisles</a>
+            <div class="dropdown">
+                <div class="dropdown-content">
+                    <a href="/fruitsandvegetables/" class="DL">Fruits & Vegetables</a>
+                    <a href="/meatsandalternatives/" class="DL">Meats & Alternatives</a>
+                    <a href="/dairyandeggs/" class="DL">Dairy & Eggs</a>
+                    <a href="P2.html" class="DL">Bread & Baked Goods</a>
+                    <a href="/Pantry/" class="DL">Pantry</a>
+                    <a href="/frozen/" class="DL">Frozen</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="nav-link"><a href="/cart/" class="user"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+    </ul>
+
+    <!-- Login page -->
+    <div class="login-page">
+
+        <br>
+        <br>
+        <h2>Sign in to take advantage of all the benefits!</h2>
+
+        <form>
+            <div class="container">
+                <label for="username">Username</label><br>
+                <input type="text" placeholder="Enter your username or e-mail address" name="username" required><br>
+
+                <label for="password">Password</label><br>
+                <input type="text" placeholder="Enter your password" name="password" required><br>
+                <br>
+
+                <button type="submit">SIGN IN</button>
+
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">
+                    Remember me
+                </label>
+
+                <br>
+                <br>
+                <button type="button" class="cancel">Cancel</button>
+                <span class="psw"><a href="link-forgotPW">Forgot password?</a></span>
+
+            </div>
+
+
+
+            <div class="container" style="background-color: #f1f1f1">
+                <p>No account? Sign up!</p>
+                <button type="button" class="signup">SIGN UP</button>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </form>
+
+    </div>
+
+    <!--Footer Bar-->
+    <div class="footer">
+        <table>
+            <tr>
+                <th>Hours of Operation</th>
+                <th>Contact Us</th>
+                <th>Follow Us</th>
+            </tr>
+            <tr>
+                <td><i class='fas fa-calendar-alt'></i> Place Orders 24/7</td>
+                <td><i class='fas fa-phone'></i> 514-436-1719</td>
+                <td><i class='fab fa-facebook-square'></i> @GrubToGo</td>
+            </tr>
+            <tr>
+                <td><i class='fas fa-truck'></i> Deliveries Mon-Fri 8am-10pm</td>
+                <td><i class='fas fa-envelope-square'></i> inquiries@grubtogo.ca</td>
+                <td><i class='fab fa-instagram'></i> @GrubToGoMTL</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
