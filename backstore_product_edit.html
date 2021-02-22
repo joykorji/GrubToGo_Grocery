@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scalae=1">
+    <title>Edit a Product</title>
+    <link rel="stylesheet" href="backstore_product_edit.css">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <ul class="navBarList">
+        <li class="nav-link"><a href="/Homepage/" class="logoLink"><i class='fas fa-seedling'></i>GrubToGo</a></li>
+
+        <li class="nav-link"><a href="/ProductList/" class="sub">Product List</a></li>
+        <li class="nav-link"><a href="/UserList/" class="sub">User List</a></li>
+        <li class="nav-link"><a href="P11.html" class="sub">Order List</a></li>
+    </ul>
+
+    <!-- end of Navigation Bar-->
+    <div class="container">
+        <div class="editorder">
+            <h2>Edit a Product</h2>
+        </div>
+
+        <div class="orderbox">
+            <label for="ordernum"><b>Product #: </b></label>
+            <input type="text" value="2109A8" name="ordernum">
+            <br>
+            <br>
+            <table>
+                <!-- <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr> -->
+                
+                <tr>
+                    <td>Name</td>
+                    <td><input class="input-field" type="text" name="quantity" value="Apple" ></td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Price per kg</td>
+                    <td>$<input class="input-field" type="number" name="quantity" value="4.49"></td>
+                
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td><textarea id="w3review" name="w3review" rows="4" cols="20">
+                            The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible,
+                            When harvested, apples are usually roundish, 5–10 cm (2–4 inches) in diameter, and some shade of red, green, or yellow
+                            in colour; they vary in size, shape, and acidity depending on the variety.
+                        </textarea></td>
+                   
+                </tr>
+                <tr>
+                    <td>Update image</td>
+                    <td><label for="img"></label>
+                    <input type="file" id="img" name="img" accept="image/*"> </td>
+                   
+                </tr>
+                
+                
+            </table>
+            <button type="button" class="add">+</button><br><br>
+            
+        </div>
+        <div class="buttonsection">
+            <button type="button" class="save">SAVE</button>
+        </div>
+    </div>
+
+    <!-- Footer info-->
+    <div class="footer">
+        <table>
+            <tr>
+                <th>Hours of Operation</th>
+                <th>Contact Us</th>
+                <th>Follow Us</th>
+            </tr>
+            <tr>
+                <td><i class='fas fa-calendar-alt'></i> Place Orders 24/7</td>
+                <td><i class='fas fa-phone'></i> 514-436-1719</td>
+                <td><i class='fab fa-facebook-square'></i> @GrubToGo</td>
+            </tr>
+            <tr>
+                <td><i class='fas fa-truck'></i> Deliveries Mon-Fri 8am-10pm</td>
+                <td><i class='fas fa-envelope-square'></i> inquiries@grubtogo.ca</td>
+                <td><i class='fab fa-instagram'></i> @GrubToGoMTL</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

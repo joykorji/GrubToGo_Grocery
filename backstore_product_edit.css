@@ -1,0 +1,185 @@
+body{
+  background-color: #f1f9eb;
+}
+.editorder{
+  font-size: 20px;
+  border: 3px solid #f1f9eb;
+  background-color: #f1f9eb;
+  padding: 8px;
+}
+.container{
+  font-size: 20px;
+  border: 8px solid #f1f9eb;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  width: 97%;
+  background-color: white;
+}
+.orderbox{
+  padding: 20px;
+  width: 100%;
+}
+table{
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+td, th{
+  border: 1px solid #f1f1f1;
+  text-align: left;
+  padding: 8px;
+}
+input[type=number]{
+  width: 161px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px 5px;
+  display: inline-block;
+}
+input[type=text]{
+  width: auto;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px 5px;
+  display: inline-block;
+}
+.add{
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 25px;
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+}
+.total{
+  padding: 8px;
+
+}
+.buttonsection{
+  padding: 15px;
+  background-color: #f1f9eb;
+
+}
+button{
+  background-color: #ffdb99;
+  color: orange;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+   display: inline-block;
+}
+.save:hover{
+  background-color: white;
+}
+.add:hover{
+  background-color: orange;
+  color: white;
+}
+.save{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+
+/* Header, navigation bar and footer */
+/*--------------Navigation Bar--------------*/
+
+ul.navBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+    top:0;
+    width: 100%;
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.nav-link:nth-child(1) {
+    margin-right: auto;
+}
+
+
+/*-----------Position of Links in Navigation Bar--------*/
+.sub {
+    float: right;
+}
+
+.logoLink {
+    float: left;
+}
+
+a.DL:hover, a.DL:active {
+    background-color: white;
+    color: orange;
+}
+
+/*------Product, User and Order lists (navigation bar)-------*/
+a.sub:link, a.sub:visited {
+    background-color: #999999;
+    color: white;
+    padding: 14px 24px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.sub:hover, a.sub:active {
+    background-color: orange;
+    color: #999999;
+}
+
+
+/*-----------Logo Link in Navigation Bar -------------*/
+a.logoLink:link, a.logoLink:visited {
+    background-color: orange;
+    color: white;
+    padding: 14px 24px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.logoLink:hover, a.logoLink:active {
+    background-color: #66B032;
+    color: white;
+}
+
+
+/*--------------Footer--------------*/
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #999999;
+    color: white;
+    opacity: 85%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 25px;
+    border-width: 0px;
+}
+th {
+    padding-bottom: 0;
+    text-align: left;
+    border-width: 0px;
+
+}
